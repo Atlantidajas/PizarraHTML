@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!-- Asowe font -->
+  <title>Inicio</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="css/font/fontGeneral.css" rel="stylesheet" type="text/css">
+  <!-- Board (Basic) -->
+  <link href="css/figures/board/boardBasic.css" rel="stylesheet" type="text/css">
+  <!-- Board (Basic + type Tiza || type Marker Pen según función ChangeStyle.
+  Habrá un cambio de valor en href si se llama a la función ChageStyle()) -->
+  <link id="styleBoard" href="css/figures/board/boardTiza.css" rel="stylesheet" type="text/css">
+
+  <link href="css/pages/index.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive/pc/blocksPc.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="js/functions/functionsDate.js"></script>
+  <script type="text/javascript" src="js/functions/functiosChangeStyle.js"></script>
+
+</head>
+
+<body onload="DateToday()">
+  <nav class="navTypePc">
+    <input type="radio" id="typeBoardSelectionTiza" class="radioButtonNavTypePc" checked value="true" onclick="ChangeStyleBoardTiza()" />
+    <p id="labelTypeBoard">
+        <i class="fas fa-arrow-alt-circle-left"></i> Tiza - Rotulador
+        <i class="fas fa-arrow-alt-circle-right"></i></p>
+    <input type="radio" id="typeBoardSelectionRotulador" class="radioButtonNavTypePc" value="true" onclick="ChangeStyleBoardRotulador()" />
+    
+  </nav>
+  <!-- Fecha pizarra -->
+  <div class="containerBoard">
+    <!-- Pizarra (board) -->
+
+    <div class="writingBoard" id="writingBoard">
+      <!-- Tablero escritura writingBoard-->
+      <header>
+        <p id="icono">-></p>
+        <!-- Icon header -->
+        <h1>Esto es un título principal del Header</h1>
+        <!-- Title header -->
+        <p id="date"></p>
+        <!-- Date time -->
+      </header>
+      <section>
+        <article>
+          
+          <article>
+      </section>
+
+    </div>
+    <!-- Fin marco pizarra -->
+
+  </div>
+  <!-- Fin pizarra -->
+  <div class="trayBoard">
+    <!-- Bandeja de la pizarra soporte tizas borrador -->
+  </div>
+  <footer>
+    <a href="#"><i class="fas fa-copyright"></i> Copyright</a>
+    <a href="#"><i class="far fa-at"></i> Privacidad</a>
+    <a href="#"><i class="fas fa-child"></i> Publicado por: Jorge Herrán Lozal</a>
+    <a href="mailto:jorge.hlt@hotmail.com"><i class="fas fa-at"></i> Contacto</a>
+
+  </footer>
+</body>
+
+</html>

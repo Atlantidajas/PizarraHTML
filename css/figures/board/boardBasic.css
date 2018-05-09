@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document Style Board (Basic)*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+div.containerBoard {
+  /* Pizarra (board)*/
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+div.containerBoard>div.writingBoard {
+  display: block;
+  position: relative;
+}
+/* Header */
+div.containerBoard>div.writingBoard>header {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+div.containerBoard>div.writingBoard>header>h1 {
+  /*Header títle H1*/
+  color: #CC2EFA;
+  position: relative;
+}
+
+div.containerBoard>div.writingBoard>header>p {
+  position: relative;
+}
+
+div.containerBoard>div.writingBoard>header>p:first-child {
+  /* Icon left part header*/
+  font-weight: bold;
+  color: #B40431;
+}
+
+div.containerBoard>div.writingBoard>header>p~p {
+  /*Full date*/
+  color: #B40431;
+}
+
+div.containerBoard>div.writingBoard>section {
+  display: block;
+  position: relative;
+}
+
+div.containerBoard>div.writingBoard>section>article {
+  display: block;
+  position: relative;
+}
+
+div.trayBoard {
+  display: block;
+  position: relative;
+  height: 1.5%;
+  margin-left: 60%;
+  width: 25%;
+}
+
+footer {
+  position: relative;
+}
+
+footer>a {
+  /*Awnings the foot links*/
+  color: #2D572C;
+}

@@ -1,0 +1,120 @@
+/* Style css Blocks Pc */
+
+/*-- Nav Pc--*/
+nav.navTypePc {
+  background-color: #2D572C;
+  display: block;
+  font-size: 1.6em;
+  height: 5%;
+  position: relative;
+  width: 100%;
+  color: white;
+}
+
+nav.navTypePc>input.radioButtonNavTypePc {
+  /*Selector de tipo pizarra cliente inputs radios*/
+  position: relative;
+  height: 100%;
+}
+
+input[type="radio"] {
+  width: 1.8%;
+  vertical-align: top;
+}
+
+nav.navTypePc>input:first-child {
+  margin-left: 10%;
+}
+
+nav.navTypePc>p#labelTypeBoard {
+  display: inline;
+  padding: 0% 1%;
+  vertical-align: super;
+  position: relative;
+  height: 100%;
+  width: 15%;
+}
+
+nav.navTypePc>input.buttonNavTypePc {
+  background-color: #705335;
+  color: white;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+  vertical-align: top;
+  margin-left: 35%;
+  width: 15%;
+  border: solid 1px #705335;/*Mato el border gris del crome que trae por defecto*/
+}
+
+nav.navTypePc>p {
+  display: inline;
+}
+
+
+div.containerBoard {
+  /* Pizarra (board)*/
+  height: 68%;
+  margin-top: 3%;
+  width: 80%;
+}
+
+div.containerBoard>div.writingBoard {
+  /* Tablero escritura basic fondo colores y font dependerá
+     del tipo de tablero escogido por ejemplo tiza, rotulador ect.. mirar estilos
+     específicos */
+  height: 100%;
+  /* Sumando los border rellena todo el container padre*/
+}
+
+div.containerBoard>div.writingBoard>header {
+  height: 21%;
+}
+
+div.containerBoard>div.writingBoard>header>h1 {
+  /*Header títle H1*/
+  display: inline-block;
+  padding: 1.8% 0%;
+  text-align: center;
+  width: 60%;
+}
+
+div.containerBoard>div.writingBoard>header>p {
+  display: inline-block;
+  /* Según el tamaño de la letra va aumentar */
+}
+
+div.containerBoard>div.writingBoard>header>p:first-child {
+  /* Icon left part header*/
+  text-align: center;
+  width: 25%;
+}
+
+div.containerBoard>div.writingBoard>header>p~p {
+  /*Full date*/
+  width: 13.5%;
+}
+
+div.containerBoard>div.writingBoard>section {
+  height: 79%;
+}
+
+div.containerBoard>div.writingBoard>section>article {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*-- Footer PC--*/
+
+footer {
+  height: 5%;
+  margin-top: 3%;
+}
+
+footer>a {
+  /*Awnings the foot links*/
+  color: #2D572C;
+  padding: 0% 7.5%;
+}

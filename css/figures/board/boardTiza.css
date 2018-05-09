@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document Style Board (Tiza)*/
+div.containerBoard {
+  /* Pizarra (board)*/
+  border: solid 22px #8A6642;
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+div.containerBoard>div.writingBoard {
+  /* Tablero escritura de pizarra (board tiza)*/
+  border: solid 5px #705335;
+  background-color: #2D572C;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+div.trayBoard {
+  /* Tablero soporte bandeja tizas borrador*/
+  background-color: #8A6642;
+  border: solid 1px #705335;
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document Style Board (marking pen Rotulador)*/
+div.containerBoard {
+  /* marco de pizarra(board)*/
+  border: solid 22px #96a396;
+  border-radius: 10px;
+  border: -webkit-linear-gradient(to right, #ffffff, #96a396);  /* Chrome 10-25, Safari 5.1-6 */
+  border: linear-gradient(to right, #ffffff, #96a396); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+div.containerBoard>div.writingBoard {
+  /* Tablero escritura de pizarra (board marking pen)*/
+  border: solid 5px #9cad9c;
+  border-bottom-color: #798979;
+  box-shadow: inset #6D6D6D 0 0 0 2px,  #6D6D6D -0px 0px, #6D6D6D -4px 3px 30px;
+  background-image: -webkit-linear-gradient(-27deg,#f7f9f7,#ffffff 95%, #f7f9f7 50%, #ffffff, #f7f9f7 57%, #ffffff 51%, #f7f9f7);/*<-- Efecto cristal con reflejos */
+  color: #0000FF;
+  font-family: 'Indie Flower', cursive;
+}
+div.trayBoard {
+  /* Tablero soporte bandeja rotuladores borrador*/
+  background-color: #abbaab;
+  border: solid 1px #9cad9c;
+  border: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  border: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
